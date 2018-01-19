@@ -1,0 +1,53 @@
+button {
+    font-size: 1.0em;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+input[type=text] {
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 0.9em;
+}
+
+#shape-canvas {
+    position: relative;
+    background-color: rgba(33, 87, 55, 0.658);
+    height: 600px;
+    width: 600px;
+}
+
+#shape-properties {
+    background-color: black;
+    color: white;
+    height: 600px;
+    width: 400px;
+    font-size: 1.25em;
+    float: right;
+}
+.shape {
+    position: absolute;
+}
+
+#rectangle {
+    background-color: green;
+    opacity: 1.0;
+}
+
+#square {
+    background-color: red;
+    opacity: 1.0;
+}
+
+#circle {
+    background-color: purple;
+    opacity: 1.0;
+    border-radius: 50%;
+}
+
+#triangle {
+    opacity: 1.0;
+    width: 0;
+    height: 0;
+}
